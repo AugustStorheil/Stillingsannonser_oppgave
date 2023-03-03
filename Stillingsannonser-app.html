@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lærling-stillinger</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+      <h1>Lærling-stillinger</h1>
+    </div>  
+  <form id="password-form">
+    <label for="password">Passord:</label>
+    <input type="password" id="password" name="password">
+    <button type="submit">Bekreft passord</button>
+  </form>
+  <form id="position-form" style="display: none;">
+    <label for="title">Tittel:</label>
+    <input type="text" id="title" name="title">
+
+    <label for="deadline">Frist:</label>
+    <input type="date" id="deadline" name="deadline">
+
+    <label for="info">Informasjon:</label>
+    <textarea id="info" name="info" style="resize: none;"></textarea>
+
+    <button type="button" id="add-position">Legg til stilling</button>
+    <button type="button" id="save-positions">Lagre stillinger</button>
+  </form>
+  <ul id="position-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
