@@ -2,122 +2,132 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background-color: #f5f5f5;
-}
-
-/* Overskrift */
-h1 {
+  font-family: "Open Sans", sans-serif;
+  background-color: #eaeaea;
+  }
+  
+  /* Overskrift */
+  h1 {
   text-align: center;
-  margin-top: 20px;
-  font-size: 2.5em;
+  margin-top: 50px;
+  font-size: 3em;
   color: #333;
-}
-
-/* Skjema */
-form {
-  margin: 20px auto;
-  width: 90%;
-  max-width: 600px;
+  text-shadow: 2px 2px #221b7a;
+  }
+  
+  /* Skjema */
+  form {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 500px;
   background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-label {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 1.2em;
   color: #333;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="date"],
-textarea {
-  width: 96%;
-  padding: 10px;
-  margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  textarea {
+  width: 94%;
+  padding: 15px;
+  margin-bottom: 30px;
   font-size: 1em;
   border: none;
-  border-radius: 5px;
-  background-color: #f5f5f5;
-}
-
-button[type="submit"],
-button[type="button"] {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
   display: block;
   margin: 0 auto;
-  padding: 10px 20px;
+  margin-top: 10px;
+  padding: 15px 30px;
   border: none;
-  border-radius: 5px;
-  background-color: #008000;
+  border-radius: 10px;
+  background-color: #007bff;
   color: #fff;
   font-size: 1.2em;
   cursor: pointer;
-}
-
-button[type="submit"]:hover,
-button[type="button"]:hover {
-  background-color: #006400;
-}
-
-/* Liste over stillinger */
-ul {
-  margin: 20px auto;
-  width: 90%;
-  max-width: 600px;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+  background-color: #0056b3;
+  }
+  
+  /* Liste over stillinger */
+  ul {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 800px;
   list-style: none;
   padding: 0;
-}
-
-li {
+  }
+  
+  li {
   background-color: #fff;
-  margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-li h3 {
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  li:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  }
+  
+  li h3 {
   margin-top: 0;
   color: #333;
-}
-
-li span {
+  }
+  
+  li span {
   font-weight: bold;
   color: #777;
-}
-
-li p {
-  margin: 10px 0;
+  }
+  
+  li p {
+  margin: 20px 0;
   color: #666;
-}
-
-li button {
+  }
+  
+  li button {
   display: block;
-  margin: 10px auto 0;
-  padding: 10px 20px;
+  margin: 20px auto 0;
+  padding: 15px 30px;
   border: none;
-  border-radius: 5px;
-  background-color: #dc143c;
+  border-radius: 10px;
+  background-color: #dc3545;
   color: #fff;
   font-size: 1.2em;
   cursor: pointer;
-}
-
-li button:hover {
-  background-color: #8b0000;
-}
-
-/* Sett bakgrunnsfargen til svart for toppbaren */
-.topbar {
-  background-color: black;
-  height: 50px;
-}
-
-/* Endre tekstfargen til hvit i toppbaren */
-.topbar * {
-  color: white;
-}
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  li button:hover {
+  background-color: #c82333;
+  }
+  
+  /* Sett bakgrunnsfargen til svart for toppbaren */
+  .topbar {
+  background-color: #333;
+  height: 63px;
+  margin-top: -50px;
+  }
+  
+  /* Endre tekstfargen til hvit i toppbaren */
+  .topbar * {
+    color: white;
+  }
