@@ -23,7 +23,25 @@ body {
   background-color: #fff;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  #password-form {
+    margin-left: 1200px;
+    background-color: #333333;
+    width: auto;
+    padding: 0px;
+    border-radius: 5px;
+    display: flex;
+    height: 1px;
+    top: -90px;
+    position: relative;
+  }
+
+  #knapp {
+    height: 50px;
+    top: -19px;
+    position: relative;
+    border-radius: 5px;
   }
   
   label {
