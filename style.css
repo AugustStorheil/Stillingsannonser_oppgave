@@ -39,9 +39,9 @@ body {
 
   #knapp {
     height: 50px;
-    top: -19px;
+    top: -17px;
+    border-radius: 10px;
     position: relative;
-    border-radius: 5px;
   }
   
   label {
